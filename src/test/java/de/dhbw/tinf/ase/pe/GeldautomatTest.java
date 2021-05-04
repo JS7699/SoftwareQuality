@@ -1,14 +1,15 @@
 package de.dhbw.tinf.ase.pe;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.fail;
-
-import org.junit.Test;
-
+import de.dhbw.tinf.ase.pe.Geldautomat;
+import de.dhbw.tinf.ase.pe.Karte;
 import de.dhbw.tinf.ase.pe.state.Bereit;
 import de.dhbw.tinf.ase.pe.state.KarteDrin;
 import de.dhbw.tinf.ase.pe.state.KeinGeld;
 import de.dhbw.tinf.ase.pe.state.PinKorrekt;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
 
 /**
  * Klasse mit den Unit-Tests für die Geldautomat-Klasse (inklusive Zuständen)

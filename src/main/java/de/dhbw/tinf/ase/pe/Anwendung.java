@@ -1,13 +1,13 @@
 package de.dhbw.tinf.ase.pe;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-
 import de.dhbw.tinf.ase.pe.state.Bereit;
 import de.dhbw.tinf.ase.pe.state.KarteDrin;
 import de.dhbw.tinf.ase.pe.state.KeinGeld;
 import de.dhbw.tinf.ase.pe.state.PinKorrekt;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 /**
  * Klasse zur Steuerung des Geldautomaten

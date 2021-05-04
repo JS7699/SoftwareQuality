@@ -1,9 +1,10 @@
 package de.dhbw.tinf.ase.pe;
 
+import de.dhbw.tinf.ase.pe.Karte;
+import org.junit.Test;
+
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
-
-import org.junit.Test;
 
 /**
  * Klasse mit den Unit-Tests für die Klasse Karte
