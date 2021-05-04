@@ -18,7 +18,7 @@ pipeline {
         }
     }
     environment {
-        EMAIL_TO = 'johannes.steinmeyer@mapal.com'
+        EMAIL_TO = 'johannes99steinmeyer@web.de'
     }
     post {
     always {
